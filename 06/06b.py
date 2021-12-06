@@ -3,7 +3,9 @@
 import fileinput
 from collections import Counter
 
-generation = Counter(map(int, next(fileinput.input()).strip().split(',')))
+from aocd import get_data
+
+generation = Counter(map(int, get_data().strip().split(',')))
 
 DAYS = 256
 

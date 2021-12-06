@@ -5,7 +5,9 @@ import re
 from collections import defaultdict, Counter
 from itertools import product
 
-input_stream = map(int, next(fileinput.input()).strip().split(','))
+from aocd import get_data
+
+input_stream = map(int, get_data().strip().split(','))
 
 generation = list(input_stream)
 
