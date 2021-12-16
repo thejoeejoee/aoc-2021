@@ -50,4 +50,4 @@ def main(lines: list[str]):
 
 
 if __name__ == '__main__':
-    print(main(lines=get_data().strip().splitlines()))
+    print(main(lines=get_data(day=14).strip().splitlines()))
